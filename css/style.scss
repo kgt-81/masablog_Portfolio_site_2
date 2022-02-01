@@ -72,6 +72,27 @@ section{
   }
 }
 
+// プロフィール
+.profile-wrapper{
+  display: flex;
+  margin-top: 48px;
+  .profile-img{
+    background-color: #707070;
+    height: 350px;
+    width: 350px;
+  }
+  .profile-box{
+    margin-left: 30px;
+    dt{
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+    dd{
+      margin-bottom: 40px;
+    }
+  }
+}
+
 // お問い合わせ
 #contact{
   border-bottom: none;
@@ -88,18 +109,19 @@ footer{
   }
   a{
     font-size: 18px;
-    padding-left: 25px;
+    // padding-left: 25px;
     position: relative;
     &:first-of-type{
       margin-right: 30px;
     }
-    .twitter,.blog{
-      color: #888;
-      font-size: 18px;
-      left: 0;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
+    .twitter,.user{
+      // color: #888;
+      // font-size: 18px;
+      // left: 0;
+      // position: absolute;
+      // top: 50%;
+      // transform: translateY(-50%);
+      margin-right: 6px;
     }
   }
 }

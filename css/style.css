@@ -85,6 +85,32 @@ section h2 {
   margin-bottom: 30px;
 }
 
+.profile-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 48px;
+}
+
+.profile-wrapper .profile-img {
+  background-color: #707070;
+  height: 350px;
+  width: 350px;
+}
+
+.profile-wrapper .profile-box {
+  margin-left: 30px;
+}
+
+.profile-wrapper .profile-box dt {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.profile-wrapper .profile-box dd {
+  margin-bottom: 40px;
+}
+
 #contact {
   border-bottom: none;
 }
@@ -106,7 +132,6 @@ footer ul {
 
 footer a {
   font-size: 18px;
-  padding-left: 25px;
   position: relative;
 }
 
@@ -114,13 +139,7 @@ footer a:first-of-type {
   margin-right: 30px;
 }
 
-footer a .twitter, footer a .blog {
-  color: #888;
-  font-size: 18px;
-  left: 0;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+footer a .twitter, footer a .user {
+  margin-right: 6px;
 }
 /*# sourceMappingURL=style.css.map */
