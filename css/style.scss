@@ -1,8 +1,23 @@
 @charset 'UTF-8';
 *{
   box-sizing: border-box;
+  font-family: '游ゴシック体';
   margin: 0;
   padding: 0;
 }
 
 // header
+header{
+  align-items: center;
+  display: flex;
+  height: 57px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  h1 a{
+    font-size: 21px;
+    display: block;
+    line-height: 57px;
+  }
+}

@@ -1,7 +1,29 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: '游ゴシック体';
   margin: 0;
   padding: 0;
+}
+
+header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 57px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header h1 a {
+  font-size: 21px;
+  display: block;
+  line-height: 57px;
 }
 /*# sourceMappingURL=style.css.map */
