@@ -52,16 +52,16 @@ header .header-nav {
   display: flex;
 }
 
-header .header-nav li {
-  font-weight: bold;
-}
-
 header .header-nav li:nth-last-of-type(n+3) {
   margin-right: 24px;
 }
 
 header .header-nav li:last-of-type {
   margin-left: 20px;
+}
+
+header .header-nav li a {
+  font-weight: bold;
 }
 
 section {
@@ -117,6 +117,7 @@ section h2 span {
 }
 
 .profile-wrapper .profile-box dt {
+  color: #888;
   font-size: 20px;
   line-height: 1;
   margin-bottom: 12px;
