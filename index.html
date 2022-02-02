@@ -30,7 +30,7 @@
       <section id="profile">
         <h2>プロフィール<br><span>profile</span></h2>
         <div class="profile-wrapper">
-          <div class="profile-img"></div>
+          <img class="profile-img" src="img/350x350.png">
           <div class="profile-box">
             <dl>
               <dt><i class="far fa-user user"></i>プロフィール</dt>
@@ -38,9 +38,13 @@
                 テキストテキストテキスト<br>
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
               </dd>
-              <dt><i class="far fa-edit"></i>スキル</dt>
+              <dt><i class="far fa-edit edit"></i>スキル</dt>
               <dd>
-                
+                テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </dd>
+              <dt><i class="fas fa-link link"></i>リンク</dt>
+              <dd>
+                <a href="#"><i class="fab fa-twitter twitter"></i>Twitter（@xxxxxxxxx）</a>
               </dd>
             </dl>
           </div>
@@ -48,15 +52,81 @@
       </section>
       <section id="works">
         <h2>実績<br><span>works</span></h2>
+        <div class="works-wrapper">
+          <div class="works-box">
+            <img class="profile-img" src="img/350x250.png">
+            <p>テキストテキストテキストテキスト</p>
+          </div>
+          <div class="works-box">
+            <img class="profile-img" src="img/350x250.png">
+            <p>テキストテキストテキストテキスト</p>
+          </div>
+          <div class="works-box">
+            <img class="profile-img" src="img/350x250.png">
+            <p>テキストテキストテキストテキスト</p>
+          </div>
+
+          <div class="works-box">
+            <img class="profile-img" src="img/350x250.png">
+            <p>テキストテキストテキストテキスト</p>
+          </div>
+          <div class="works-box">
+            <img class="profile-img" src="img/350x250.png">
+            <p>テキストテキストテキストテキスト</p>
+          </div>
+          <div class="works-box">
+            <img class="profile-img" src="img/350x250.png">
+            <p>テキストテキストテキストテキスト</p>
+          </div>
+        </div>
       </section>
       <section id="services">
         <h2>業務<br><span>services</span></h2>
+        <div class="services-wrapper">
+          <div class="services-box">
+            <p class="services-title"><i class="fas fa-file-code"></i>コーディング</p>
+            <p class="services-text">テキストテキストテキストテキストテキスト テキストテキストテキストテキストテキスト テキストテキストテキストテキストテキスト テキストテキストテキストテキストテキスト</p>
+          </div>
+          <div class="services-box">
+            <p class="services-title"><i class="fas fa-paint-brush"></i>デザイン</p>
+            <p class="services-text">テキストテキストテキストテキストテキスト テキストテキストテキストテキストテキスト テキストテキストテキストテキストテキスト テキストテキストテキストテキストテキスト</p>
+          </div>
+          <div class="services-box">
+            <p class="services-title"><i class="fab fa-wordpress"></i>WordPress</p>
+            <p class="services-text">テキストテキストテキストテキストテキスト テキストテキストテキストテキストテキスト テキストテキストテキストテキストテキスト テキストテキストテキストテキストテキスト</p>
+          </div>
+        </div>
       </section>
       <section id="blog">
         <h2>ブログ<br><span>blog</span></h2>
+        <div class="blog-wrapper">
+          <div class="blog-box">
+            <img class="profile-img" src="img/350x250.png">
+            <p>テキストテキストテキストテキスト</p>
+          </div>
+          <div class="blog-box">
+            <img class="profile-img" src="img/350x250.png">
+            <p>テキストテキストテキストテキスト</p>
+          </div>
+          <div class="blog-box">
+            <img class="profile-img" src="img/350x250.png">
+            <p>テキストテキストテキストテキスト</p>
+          </div>
+        </div>
       </section>
       <section id="contact">
         <h2>お問い合わせ<br><span>contact</span></h2>
+        <form action="" method="get">
+          <label for="name">お名前（必須）</label>
+          <input name="name" type="text" id="name">
+          <label for="mail">メールアドレス（必須）</label>
+          <input name="mail" type="text" id="mail">
+          <label for="title">題名</label>
+          <input name="title" type="text" id="title">
+          <label for="text">本文</label>
+          <textarea name="text" id="text" cols="30" rows="11"></textarea>
+          <button type="submit" class="button">送 信</button>
+        </form>
       </section>
     </main>
     <footer>
